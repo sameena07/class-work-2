@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <math.h>
+int reverse(int num);
+int main()
+{
+    int num, rev;   
+    printf("Enter any number: ");
+    scanf("%d", &num);
+    rev = reverse(num); 
+    printf("Reverse of %d = %d", num, rev);
+    return 0;
+}
